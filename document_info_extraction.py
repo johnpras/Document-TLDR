@@ -20,14 +20,11 @@ stopwords_ = set(stopwords.words('english'))
 
 print("Document information extraction.\n")
 
-filename = "text2.txt"
+filename = "text.txt"
 with open(filename, encoding="utf8") as myfile:
     text=" ".join(line.rstrip() for line in myfile)
 
-
-#title of the article:   £9m fisheries funding boost for English seafood businesses
-
-
+    
 #number of words in the text
 num_words = len(text.split())
 print("A) Total number of words:",num_words)
@@ -40,7 +37,7 @@ print("B) Total number of sentences:",num_sents)
 average_sent_len = int(num_words / num_sents)
 print("C) Average sentence length:", average_sent_len)
 
-#   clean text
+#clean text
 #remove stopwords
 filtered_list=[]
 words = word_tokenize(text)
