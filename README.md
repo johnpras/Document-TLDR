@@ -1,5 +1,5 @@
 # document-TLDR
 
 Summarize any piece of text with one click.
-AI summary, multiple styles
-AI keyword extraction
+*AI summary, multiple styles
+*AI keyword extraction
