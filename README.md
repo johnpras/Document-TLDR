@@ -1,8 +1,10 @@
-# document-TLDR
+# Document-TLDR
 
 Summarize any piece of text with one click.
 - AI summary, multiple styles
 - AI keyword extraction
+
+2 models based on BART.
 
 Built on stremlit framework.
 
